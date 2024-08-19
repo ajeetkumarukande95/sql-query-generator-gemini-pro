@@ -26,8 +26,6 @@ model = geneai.GenerativeModel("gemini-pro")
 #     )
 #     return conn
 
-
-
 # # Connect to the SQLite database (or create it if it doesn't exist)
 # def connect_db():
 #     conn = sqlite3.connect("")
