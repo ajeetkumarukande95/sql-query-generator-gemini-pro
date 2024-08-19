@@ -2,8 +2,9 @@ import streamlit as st
 import google.generativeai as geneai
 from dotenv import load_dotenv
 import os
-import sqlite3
-import psycopg2
+import mysql.connector
+# import sqlite3
+# import psycopg2
 
 # Load environment variables from .env file
 load_dotenv()
@@ -32,7 +33,6 @@ model = geneai.GenerativeModel("gemini-pro")
 #     return conn
 
 # Connect with MYSQL Database
-import mysql.connector
 def connect_db():
     conn = mysql.connector.connect(
         user='xxxx',
