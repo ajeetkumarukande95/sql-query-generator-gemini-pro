@@ -46,7 +46,6 @@ Ensure you have the following installed:
 3. Create a `.env` file in the root directory of the project:
 
     ```plaintext
-    *link to create api key* -- https://aistudio.google.com/app/apikey
     GOOGLE_API_KEY=your_google_api_key_here
     ```
 
@@ -55,7 +54,9 @@ Ensure you have the following installed:
     ```bash
     streamlit run app.py
     ```
-
+5. Link to create api key:
+   ## link to create api key -- https://aistudio.google.com/app/apikey
+   
 ## Usage
 
 1. Start the application using the command above.
